@@ -1,0 +1,4 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Wed Sep 28 19:15:39 PKT 2022","Wed Sep 28 19:16:18 PKT 2022","38576","","Signup Test","","Signup Test","Uncomplete Signup","Uncomplete Signup",""
+"passed","Wed Sep 28 19:15:39 PKT 2022","Wed Sep 28 19:16:08 PKT 2022","28779","","Login Test","","Login Test","Login with correct credentials","Login with correct credentials",""
+"passed","Wed Sep 28 19:15:39 PKT 2022","Wed Sep 28 19:16:17 PKT 2022","38207","","Login Test","","Login Test","Login with wrong credentials","Login with wrong credentials",""

@@ -1,0 +1,4 @@
+{
+  "using": "xpath",
+  "value": "//h6[contains(., \"We sent a temporary sign-in code to\")]"
+}

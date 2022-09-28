@@ -1,0 +1,36 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1664374091348' stop='1664374106448'>
+    <name>Login Test</name>
+    <title>Login Test</title>
+    <test-cases>
+        <test-case start='1664374091348' status='broken' stop='1664374106447'>
+            <name>Login with wrong credentials</name>
+            <title>Login with wrong credentials</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-105.0.5195.127'/>
+            </parameters>
+            <steps>
+                <step start='1664374091350' status='passed' stop='1664374106445'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='ed9c147e-65f2-47e8-a243-677617b0a0dd-attachment.json' type='application/json' size='49'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>this.inputUsername.setValue is not a function</message>
+                <stack-trace>TypeError: this.inputUsername.setValue is not a function
+                    at LoginPage.continue (c:\automation\wdio\test\pageobjects\login.page.js:27:34)
+                    at Context.&lt;anonymous> (c:\automation\wdio\test\specs\incorrectlogin.js:8:33)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
